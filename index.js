@@ -26,6 +26,11 @@ let persons = [
     name: "Mary Poppendieck",
     number: "39-23-6423122",
   },
+  {
+    id: 5,
+    name: "Testing Namer",
+    number: "337-12-123123",
+  },
 ];
 
 morgan.token("body", (req) => {
